@@ -11,7 +11,7 @@ class AnimalGallery {
 
   constructor() {
     this.#gallery_array = new Array();
-    //this.#animal_json= new AnimalJson();
+    
   }
 
   //lo que entra desde el registro
@@ -28,7 +28,7 @@ class AnimalGallery {
     return this.#gallery_array.length - 1;
   }
 
-  
+//Asigna la clase correspondiente a cada animal  
   #AnimalSelectorClass(nombre, edad, img, comentarios, sonido) {
     switch (nombre) {
       case "Aguila":
@@ -44,6 +44,7 @@ class AnimalGallery {
     }
   }
 
+  //retorna el arreglo de animales que se encuentran agregados
   get AnimalGalleryArray() {
     return this.#gallery_array;
   }
