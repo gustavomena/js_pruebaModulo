@@ -12,6 +12,9 @@ body {
   padding: 100px;
 }
 
+
+
+
 /* Formulario */
 
 #preview {
@@ -42,6 +45,15 @@ body {
   max-width: 30%;
 }
 
+.animal-card{
+ margin: 10px;
+}
+.animal-btn{
+  background-image: url(../imgs/audio.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 /* Modal */
 
 .modal-dialog{
