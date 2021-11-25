@@ -11,7 +11,7 @@ async function getAnimal(animal_name) {
   console.log(animal_name);
   const img_url = "./assets/imgs/";
   const sounds_url = "./assets/sounds/";
-  const url = "../../animales.json";
+  const url = "./../../animales.json";
   try {
     const response = await fetch(url);
     const data = await response.json();
