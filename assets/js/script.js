@@ -41,8 +41,8 @@ let animalSelection = document.getElementById("animal");
 
 //al hacer seleccionar el animal, llama a la funcion que extrae el JSON
 //del animal seleccionado y se lo pasa al registro de animales
-animalSelection.addEventListener("click", function () {
-  getAnimal(animalSelection.value);
+animalSelection.addEventListener("click", async function () {
+  await getAnimal(animalSelection.value);
 });
 
 //crea y lee los datos al presionar el boton agregar
